@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://mergekiyo.site/sitemap.xml
+Sitemap: https://mergeqo.space/sitemap.xml

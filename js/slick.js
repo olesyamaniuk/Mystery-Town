@@ -1,5 +1,5 @@
 $(function () {
-  $(".y-a-gallery-list").slick({
+  $(".y-s-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -7,14 +7,14 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-
+    dots: true,
     cssEase: "linear",
-    prevArrow: ".y-a-gallery-list-left",
-    nextArrow: ".y-a-gallery-list-right",
+    prevArrow: ".y-s-gallery-list-left",
+    nextArrow: ".y-s-gallery-list-right",
   });
 });
 $(function () {
-  $(".y-a-characters-list").slick({
+  $(".y-s-characters-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -24,13 +24,13 @@ $(function () {
     speed: 1000,
 
     cssEase: "linear",
-    prevArrow: ".y-a-characters-list-left",
-    nextArrow: ".y-a-characters-list-right",
+    prevArrow: ".y-s-characters-list-left",
+    nextArrow: ".y-s-characters-list-right",
   });
 });
 
 $(function () {
-  $(".y-a-reviews-list").slick({
+  $(".y-s-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -38,9 +38,9 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-
+    centerMode: true,
     cssEase: "linear",
-    prevArrow: ".y-a-reviews-list-left",
-    nextArrow: ".y-a-reviews-list-right",
+    prevArrow: ".y-s-reviews-list-left",
+    nextArrow: ".y-s-reviews-list-right",
   });
 });
